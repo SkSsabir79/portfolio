@@ -1,0 +1,82 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top, #1a2a6c, #b21f1f, #fdbb2d);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 520px;
+  backdrop-filter: blur(5px);
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.intro {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  color: #ffe;
+}
+
+#score-container {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  display: inline-block;
+  padding: 8px 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn-grid {
+  display: grid;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+button {
+  background: #fff;
+  color: #222;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+.next-btn {
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: bold;
+}
+
+a {
+  color: #ffeb3b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
